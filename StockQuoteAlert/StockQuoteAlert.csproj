@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockQuoteJob.Domain\StockQuoteJob.Domain.csproj" />
+    <ProjectReference Include="..\StockQuoteJob.Infra.Data\StockQuoteJob.Infra.Data.csproj" />
+    <ProjectReference Include="..\StockQuoteJob.Service\StockQuoteJob.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Historic\" />
+  </ItemGroup>
+
+</Project>

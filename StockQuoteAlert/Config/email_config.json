@@ -1,0 +1,8 @@
+{
+   "emailReceiver":"brunoclopessilva@gmail.com",
+   "emailSender":"brunoclsilva@gmail.com",
+   "host":"in-v3.mailjet.com",
+   "port":587,
+   "apiKey":"d6d5026650adc24adefde67769208707",
+   "secretKey":"2e76636f694794c2a1ac272654fd8aa4"
+}
